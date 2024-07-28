@@ -30,7 +30,7 @@ password = ""
 
 # Add random letters to the password
 for i in range(nr_letters):
-    password += letters[random.randint(0, len(letters) - 1)]
+    password += random.choice(letters)
 
 # Add random numbers to the password at random positions
 for i in range(nr_numbers):

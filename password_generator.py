@@ -24,6 +24,7 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 # Get the number of symbols the user wants in their password
 nr_symbols = int(input(f"How many symbols would you like?\n"))
 
+
 # Initialize the password string
 password = ""
 
@@ -45,3 +46,4 @@ for i in range(nr_symbols):
 
 # Display the generated password
 print(f"Generated password is: {password}")
+
